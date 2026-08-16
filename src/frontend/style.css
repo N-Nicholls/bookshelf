@@ -72,3 +72,17 @@ nav {
 .body-3 {
     flex: 1;
 }
+
+#create-review-button{
+    font: var(--font);
+    color: var(--text);
+    background-color: transparent;
+    border: 2px solid var(--secondary-accent);
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+#create-review-button::hover{
+    background-color: #10B981;
+}
